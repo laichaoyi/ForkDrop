@@ -2,8 +2,8 @@ class Localization {
     constructor() {
         Localization.$htmlRoot = document.querySelector('html');
 
-        Localization.defaultLocale = "vi";
-        Localization.supportedLocales = ["vi", "ar", "ca", "de", "en", "es", "fr", "id", "it", "ja", "kn", "nb", "nl", "pt-BR", "ro", "ru", "tr", "zh-CN"];
+        Localization.defaultLocale = "en";
+        Localization.supportedLocales = ["ar", "ca", "de", "en", "es", "fr", "id", "it", "ja", "kn", "nb", "nl", "pt-BR", "ro", "ru", "tr", "zh-CN","vi"];
         Localization.supportedLocalesRtl = ["vi"];
 
         Localization.translations = {};
