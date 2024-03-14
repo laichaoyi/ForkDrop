@@ -2,12 +2,12 @@
   "sdpSemantics": "unified-plan",
   "iceServers": [
     {
-      "urls": "stun:<DOMAIN>:3478"
+      "urls": "stun:drop.heavyrain.vip:3478"
     },
     {
-      "urls": "turns:<DOMAIN>:5349",
-      "username": "username",
-      "credential": "password"
+      "urls": "turns:drop.heavyrain.vip:5349",
+      "username": "filedrop",
+      "credential": "filedroppass"
     }
   ]
 }
